@@ -5,10 +5,10 @@ from textblob import TextBlob
 class Sentimental:
 	def __init__(self, tagar):
 		self.tagar = tagar
-		self.key = "XeGTjuWHWSLc02MPzcsBkO2WW"
-		self.secret_key = "UlfiJHunu4pEolKpiUS5Jt99RKwjA4Z8zwDoxEamzHe8TGfF7Z"
-		self.acces_token = "1333232471790428161-SFsGH29BLJCxjJejjir9r09dm4J1Wr"
-		self.acces_secret = "lSTcjemQMptqLuntz9JzVLoRW5HMh0AIXs01Opq9wDSJl"
+		self.key = "Input ur key"
+		self.secret_key = "Input ur secret key"
+		self.acces_token = "input access token"
+		self.acces_secret = "input access secreet"
 	def ProcessScrapy(self):
 		otentikasi = tweepy.OAuthHandler(self.key, self.secret_key)
 		otentikasi.set_access_token(self.acces_token, self.acces_secret)
